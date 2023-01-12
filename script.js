@@ -35,6 +35,7 @@ fetch(breedss)
   .then((response) => response.json())
   .then((data) => {
     const toomany = data.data;
+    console.log(toomany);
     const arrayToTest = new Array();
     toomany.forEach((element) => {
       arrayToTest.push(element.coat);
