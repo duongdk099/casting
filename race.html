@@ -21,10 +21,41 @@
       </div>
     </header>
     <br /><br />
-    <div class="block">Afficher une race</div>
-    <div class="block_reveal">Did you know ... </div>
-    
 
-    <script src="anecdote.js"></script>
+    <div class="containerChoices">
+      <div class="firstLine">
+        <div id="races" class="firstLineChild">Races</div>
+        <div class="firstLineChild">2 résultats</div>
+      </div>
+      <br /><br />
+      <div class="choices">
+        <label for="cars">Par Pays:</label>
+
+        <select id="pays">
+          <option value="audi">France</option>
+        </select>
+
+        <label for="cars">Par Pelage:</label>
+
+        <select id="pelage">
+          <option value="audi">Short</option>
+        </select>
+      </div>
+      <br /><br />
+
+      <div class="resultats">
+        <table>
+          <tr>
+            <td><button id="race1">Race 1</button></td>
+          </tr>
+          <tr>
+            <td><button id="race2">Race 2</button></td>
+          </tr>
+        </table>
+      </div>
+      <div id="reveal_race"></div>
+    </div>
+
+    <script src="race.js"></script>
   </body>
 </html>

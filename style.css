@@ -89,3 +89,31 @@ button {
   padding: 15px;
   border-radius: 10px;
 }
+
+.containerChoices {
+  background-color: #343434;
+  color: white;
+  width: 300px;
+  height: 500px;
+}
+
+.firstLineChild {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+#races {
+  color: orangered;
+}
+
+#reveal_race {
+  margin: 20px auto;
+  width: 550px;
+  height: 200px;
+  background: #343434;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 358px;
+  margin-top: -150px;
+}
